@@ -130,3 +130,11 @@ const main = async () => {
 if (require.main === module) {
   main();
 }
+
+module.exports = {
+  findLiTags,
+  countLiTags,
+  findUlTag,
+  findLargestUl,
+  analyze,
+};
