@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "bin": "src/index.js",
   "devDependencies": {
     "jest": "^29.7.0"
   }
