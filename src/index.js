@@ -112,8 +112,8 @@ const main = async () => {
 
   if (!url?.startsWith("http")) {
     console.error("Please provide a URL as an argument");
-    console.error("Usage: scraper <url>");
-    console.error("Example: scraper https://example.com");
+    console.error("Usage: npm start <url>");
+    console.error("Example: npm start https://example.com");
     process.exit(1);
   }
 
